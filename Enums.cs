@@ -5,6 +5,41 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace PublicUtility.Nms.Enums {
+
+  [Flags]
+  public enum WidowMode {
+    Hide = 0,
+    Show = 5
+  }
+
+  [Flags]
+  public enum ActionType {
+    Delete,
+    Select
+  }
+
+  public enum SearchType {
+    Symbols,
+    Numbers,
+    Letters,
+    NumbersAndLetters,
+    SpecialChars,
+    UpperCase,
+    LowerCase,
+    WhiteSpaces
+  }
+
+  public enum TokenType {
+    Bearer,
+    Basic
+  }
+
+  public enum ConvertTo {
+    Number,
+    Char,
+    String,
+    Bool
+  }
   public enum MouseSpeed {
     X1 = 1,
     X2 = 2,

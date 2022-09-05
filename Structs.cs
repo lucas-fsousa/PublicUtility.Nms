@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PublicUtility.Nms.Structs {
+﻿namespace PublicUtility.Nms.Structs {
   public readonly record struct PixelColor(byte Alpha, byte Red, byte Green, byte Blue);
 
   public readonly record struct ScreenSize(int Width, int Height);
