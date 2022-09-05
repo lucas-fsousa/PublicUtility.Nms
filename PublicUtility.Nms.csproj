@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Title>PublicUtility.Nms</Title>
+    <Company>Lucas F Sousa</Company>
+    <Description>A aux lib for enums and structs</Description>
+    <PackageProjectUrl>https://github.com/lucas-fsousa/Nms</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/lucas-fsousa/Nms</RepositoryUrl>
+    <PackAsTool>False</PackAsTool>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>DOTNET;.NET6; .NET; HELPER; ASPNET</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Lucas F Sousa</Authors>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Copyright>Lucas Sousa. All rights reserved.</Copyright>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>
