@@ -19,16 +19,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Copyright>Lucas Sousa. All rights reserved.</Copyright>
     <PackageId>$(AssemblyName)</PackageId>
-    <Version>1.0.1</Version>
-    <AssemblyVersion></AssemblyVersion>
-    <FileVersion></FileVersion>
+    <Version>1.0.2</Version>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Update="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
 
 </Project>
