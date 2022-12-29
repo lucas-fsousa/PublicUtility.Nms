@@ -14,4 +14,6 @@
     public PointIntoScreen GetStartBox() => new(Point.X, Point.Y);
   }
 
+  public readonly record struct UpdateField(string FieldName, object FieldValue);
+
 }
